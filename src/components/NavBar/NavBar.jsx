@@ -1,6 +1,7 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import './NavBar.css';
 import { useContext } from 'react';
+import {PatientContext} from "../../contexts/PatientsContext";
 // import { AuthContext } from '../contexts/AuthContext';
 // import { logoutUser } from '../services/auth';
 
@@ -27,6 +28,7 @@ const NavBar = () => {
           <li>
             <NavLink to="/patients">Pacientes</NavLink>
           </li>
+
           {/* {
               authContext.isLogedIn ?
                 <>

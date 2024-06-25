@@ -12,7 +12,7 @@ const PatientsContextProvider = ({ children }) => {
       const patientsData = await getPatientsList();
       setPatientsList(patientsData);
     }
-    fetchMovies();
+    fetchPatients();
   }, []);
 
   const contextData = {

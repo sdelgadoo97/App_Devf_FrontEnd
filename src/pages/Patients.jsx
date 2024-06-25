@@ -1,4 +1,4 @@
-import PatientsDetail from "../components/PatientsDetail";
+import PatientsDetail from "../components/PatientDetail";
 import PatientsList from "../components/PatientsList";
 import { PatientsContextProvider } from "../contexts/PatientsContext";
 
