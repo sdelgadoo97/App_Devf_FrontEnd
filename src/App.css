@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.movies-container {
+  display: flex;
+}
+
+#movies-list-container li:hover {
+  cursor: pointer;
+}
+
+nav {
+  min-width: 80%;
+}

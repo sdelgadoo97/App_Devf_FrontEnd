@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80vw;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+}
